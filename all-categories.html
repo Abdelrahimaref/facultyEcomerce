@@ -31,19 +31,28 @@
         <!---- Start nav ---->
         <nav class="nav">
             <div class="container">
-                <div class="nav__content">
-                    <div class="nav__logo-box">
-                        <img src="img/logo-green-small-1x.png" alt="logo" class="nav__logo">  
-                    </div>
-                    <div class="nav__cart-box">
-                        <span> <i class="fas fa-cart-plus"></i> </span> 
-                        <div class="dropdown">
-                            <a href="#"class="paragraph-white margin-left-1"> <span><i class="far fa-user"></i> </span> Ahmed Mohamed</a>
-                            <div class="dropdown__content">
-                              <a href="#">LogOut</a>
+                <div class="">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="nav__logo-box">
+                                <img src="img/logo-green-small-1x.png" alt="logo" class="nav__logo">  
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+
+                            <div class="nav__cart-box text-center">
+                                <a href="history.html" class="paragraph-white">Purchase History </a> 
+                                <a href="cart.html"> <span> <i class="fas fa-cart-plus"></i> </span> </a> 
+                                <div class="dropdown">
+                                    <a href="#"class="paragraph-white margin-left-1"> <span><i class="far fa-user"></i> </span> Ahmed Mohamed</a>
+                                    <div class="dropdown__content">
+                                      <a href="form.html">LogOut</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </nav>
@@ -51,7 +60,7 @@
         <nav class="nav2 bg-white">
             <div class="container">
                 <div class="nav2__content">
-                    <div class="nav2__logo-box">
+                    <div class="nav2__logo-box d-flex justify-content-between" style="width: 100%;">
                         <!-- <div class="dropdown">
                             <a href="#"class="dropdown__dropbtn"> <span><i class="fa fa-list-ul"></i> </span> All Categories</a>
                             <div class="dropdown__content">
@@ -60,7 +69,9 @@
                               <a href="#">Electronics</a>
                             </div>
                         </div> -->
-                        <a href="all-categories.html"class="dropdown__dropbtn"> <span><i class="fa fa-list-ul"></i> </span>Show All Categories</a>
+                            <a href="all-categories.html"class="dropdown__dropbtn"> <span><i class="fa fa-list-ul"></i> </span>Show All Categories</a>
+                            <a href="form.html" class="btn btn-primary padding-btn">Login</a>
+                        
                     </div>
                 </div>
             </div>
@@ -72,7 +83,7 @@
             <div class="container">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="home-page.html">Home</a></li>
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                       <li class="breadcrumb-item active" aria-current="page">All Categories</li>
                     </ol>
                 </nav>
